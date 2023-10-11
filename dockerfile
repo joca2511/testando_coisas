@@ -1,4 +1,6 @@
 FROM gazebo:latest
+WORKDIR /src
 FROM ros:latest
-RUN apt-get update
-CMD[]
+COPY --from=0 /src .
+
+CMD
