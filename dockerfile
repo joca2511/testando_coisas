@@ -8,6 +8,6 @@ RUN apt-get update
 RUN apt-get install -y git
 
 CMD []
-#rodar "docker build -t (nome_imagem) ."
-#rodar "docker volume create (nome_volume)"
-#rodar "docker run -v (nome_volume) -it (nome_imagem) bash" para acessar console
+#rodar "docker build -t (nome_imagem) ." para criar imagem
+#rodar "docker volume create (nome_volume)" para criar volume
+#rodar "docker run -v (nome_volume) -it (nome_imagem) bash" para acessar console do container
