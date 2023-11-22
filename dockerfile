@@ -11,7 +11,8 @@ RUN apt-get install -y --no-install-recommends \
     git \
     tmux \
     xterm \
-    xclip 
+    xclip \
+    python3-pip 
 RUN pip install setuptools==58.2.0
 RUN pip install transforms3d
 CMD []
